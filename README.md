@@ -1,42 +1,47 @@
-# 3-Jekyll Theme
+### 博客地址
 
-新版 3-Jekyll，当前完成度 80%，预览请访问 [http://peiwen.lu](http://peiwen.lu)，[Github repo](https://github.com/P233/P233.github.io)。
+Github托管的是以前Jekyll版本的源码，现在博客用Hexo重新搭建
+#### 预览
 
-旧版请在 [https://github.com/P233/3-Jekyll/releases](https://github.com/P233/3-Jekyll/releases) 下载。
+* Jekyll版本：EZLippi.github.io
+* Hexo 版本： [www.ezlippi.com](http://www.ezlippi.com)
+* Hexo版本源码：[https://coding.net/u/ezlippi/p/ezlippi/git/tree/coding-pages/](https://coding.net/u/ezlippi/p/ezlippi/git/tree/coding-pages/)
+
+### 使用Jekyll版本作为博客模板，仅需如下几步：
+
+1. 首先Fork或Download一份本项目代码。 
+2. 修改_config.yaml及about.md文件，以变更个人信息。 
+3. 修改_include目录下相关文件，以配置网站统计(analytics.html)，网友评论(comment.html)，右侧栏目(categories.html),热门文章(hot.html),友情链接(links.html)等。 
+4. 修改CNAME文件，以绑定自己的域名。 
+5. 删除_posts下文章，换成你自己的。 
+6. 去谷歌自定义搜索新建一个你的搜索引擎，把你的Id替换根目录下search.html我的ID
+7. 最后，push到你自己的博客Repo~ 
+
+ *^_^*如果愿意，Star本项目一个吧~ 
+
+### 本项目使用了
+
+1. CNZZ的网站统计服务，官网：http://cnzz.com 
+2. 多说的评论功能，官网:http://duoshuo.com/
+
+### 联系方式
+
+联系方式： Email(ouyanglip@gmail.com) 
 
 
-## 针对旧版的改进
+### 使用本项目作模板的博客链接
 
-* 侧边栏使用 Tag 或 Category 做为文章分类，默认 Tag。
-* 自动生成侧边栏分类标签，基本不需要修改模板文件。但标签顺序由 Jekyll 根据时间顺序生成，需要手动调整顺序只能修改 `_includes/sidebar.html`，格式是 `<li class="sidebar-tag" data-filter="TAG">TAG</li>`，替换 `TAG`，大小写敏感。
-* 更加全面的 Sass 变量，方便个性化主题样式。
-* 暂定取消文章的标题目录。
-* 取消了嵌入 Codepen。
+* http://www.94geek.com  
+* http://www.haidaoxiaofei.me  
+* http://www.malphi.net  
+* http://happyaround.com  
+* http://tencentlocation.github.io  
+* http://wtaps.github.io 
+* http://maoshu.cc
+* http://x-carto.com/
+* http://flypeom.site
 
+## 2016-02-25更新
 
-## TODO
-
-* 搜索功能
-* Webkit 换页动画
-* 改进文章筛选动画
-* <del>集成 Google Analytics</del>
-* 文章时间，Category，Tag 归档页面
-* Favicon
-* Mobile touch swipe
-
-其他建议欢迎[提交 issue](https://github.com/P233/3-Jekyll/issues/new)
-
-
-## 使用
-
-### 设置 `_config.yml`
-
-`_config.yml` 除基本的站点设置外，新加入了社交链接与评论设置。将需要添加的社交帐号填入对应设置，并取消注释，会在头像下方增加一条社交帐号的链接。支持 Twitter, Weibo, Github, Codepen 以及 Dribbble。此外，填入 Disqus 的 shortname 也会启用 Disqus 评论。 `filter` 选项选择使用 `tag` 或 `category` 作为文章分类。
-
-### 修改样式
-
-样式相关的 Sass 变量都存储在 `/css/main.sass` 文件中，修改这个文件可以满足大部分样式定制的需求。建议首先修改 `$gradient-start` 与 `$gradient-end` 两个变量，给自己的博客使用独一无二的侧边栏背景。
-
-### 替换图片
-
-请不要忘记替换 `/assets/img/` 内的图片。`avatar.jpg` 是侧边栏头像的图片，`qrcode.jpg` 会在提示浏览器不兼容时使用。[QR Code 生成器](https://www.unitag.io/qrcode)
+* 本博客由Jekyl迁移到Hexo,博客地址[ezlippi](www.ezlippi.com),源码托管在了国内的[Coding.net](https://coding.net/u/ezlippi/p/ezlippi/git/tree/coding-pages/)
+* 使用Hexo搭建个人博客具体教程参考[Jekyll迁移到Hexo建立个人博客](http://www.ezlippi.com/blog/2016/02/jekyll-to-hexo.html)
